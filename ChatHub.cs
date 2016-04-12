@@ -10,19 +10,7 @@ namespace SignalRChat
     public class ChatHub : Hub
     {
         #region Data Members
-
-        static List<UserDetail> ConnectedUsers = new List<UserDetail>();
-        static List<MessageDetail> CurrentMessage = new List<MessageDetail>();
-		
-		 
-		 static List<UserDetail> ConnectedUsers = new List<UserDetail>();
-        static List<MessageDetail> CurrentMessage = new List<MessageDetail>();
-		static List<UserDetail> ConnectedUsers = new List<UserDetail>();
-        static List<MessageDetail> CurrentMessage = new List<MessageDetail>();
-		static List<UserDetail> ConnectedUsers = new List<UserDetail>();
-        static List<MessageDetail> CurrentMessage = new List<MessageDetail>();
-		static List<UserDetail> ConnectedUsers = new List<UserDetail>();
-        static List<MessageDetail> CurrentMessage = new List<MessageDetail>();
+        
 
         #endregion
 
@@ -35,6 +23,7 @@ namespace SignalRChat
 
             if (ConnectedUsers.Count(x => x.ConnectionId == id) == 0)
             {
+				//Test the Projects
                 ConnectedUsers.Add(new UserDetail { ConnectionId = id, UserName = userName });
 
                 // send to caller
