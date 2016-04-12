@@ -21,6 +21,8 @@ namespace SignalRChat
         static List<MessageDetail> CurrentMessage = new List<MessageDetail>();
 		static List<UserDetail> ConnectedUsers = new List<UserDetail>();
         static List<MessageDetail> CurrentMessage = new List<MessageDetail>();
+		static List<UserDetail> ConnectedUsers = new List<UserDetail>();
+        static List<MessageDetail> CurrentMessage = new List<MessageDetail>();
 
         #endregion
 
