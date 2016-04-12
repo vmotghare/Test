@@ -12,6 +12,9 @@ namespace SignalRChat
         #region Data Members
         //Test the Projects
                 ConnectedUsers.Add(new UserDetail { ConnectionId = id, UserName = userName });
+				
+				   //Test the Projects
+                ConnectedUsers.Add(new UserDetail { ConnectionId = id, UserName = userName });
 
         #endregion
 
